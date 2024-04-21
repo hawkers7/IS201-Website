@@ -81,6 +81,7 @@ footer {
 footer p {
     margin: 0;
 }
+
 footer{
     text-align: center;
 }
@@ -117,4 +118,8 @@ tr:nth-child(even) {
 /* Hover effect for images inside links */
 .play a:hover img {
     opacity: .9; /* Reduce opacity on hover */
+}
+
+.no-hover {
+    opacity: 1;
 }
