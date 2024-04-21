@@ -1,0 +1,125 @@
+/* Font color and font family styles */
+body {
+    color: #333; /* Font color */
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+    background-color: #f0f8ff; /* Soft pastel blue background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header styling */
+header {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px; /* Larger font size for header */
+    color: #333; /* Font color */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Font color */
+    font-weight: bold; /* Bold font weight for links */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+    color: orangered; /* Change color on hover */
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 24px; /* Larger font size for section headings */
+    color: #333; /* Font color */
+}
+
+/* Play styling */
+.play {
+    margin-bottom: 20px;
+    padding: 20px; /* Add padding to the play class */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+/* Footer styling */
+footer {
+    font-size:small;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #f0f5f9;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+}
+
+/* Styles for all tables */
+table {
+    width: 50%; /* Adjust the width as needed */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space between tables */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 12px; /* Increase padding */
+    border-bottom: 1px solid #ddd;
+    text-align: left; /* Align text to the left in table cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for table header cells */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+/* Hover effect for images inside links */
+.play a:hover img {
+    opacity: .9; /* Reduce opacity on hover */
+}
+
+.no-hover {
+    opacity: 1;
+}
